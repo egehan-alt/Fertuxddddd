@@ -1,0 +1,200 @@
+
+html {
+              background: gray;
+              -webkit-background-size: cover;
+              -moz-background-size: cover;
+              -o-background-size: cover;
+              background-size: cover;
+        }
+.div{
+  float: left;
+display: inline-block;
+height: 200px;
+width: 300px;
+margin: 10px;
+}
+.button1 {
+  background-color: #4CAF50; /* Green */
+  position: fixed;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  top: 68px;
+  left: 350px;
+}
+
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.button2 {
+  background-color: #4CAF50; /* Green */
+  position: fixed;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  top: 68px;
+  left: 486px;
+}
+.button2 {
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+}
+
+.button2:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+.button3 {
+  background-color: #4CAF50; /* Green */
+  position: fixed;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  top: 68px;
+  left: 577px;
+}
+.button3 {
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+}
+
+.button3:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+.anasayfa {
+  position: fixed;
+  background-color: #034e54;
+  height: 70px;
+  width: 700px;
+  top: 53px;
+  margin-left: 325px;
+}
+.yazı {
+  position: fixed;
+    top: -10px;
+    margin-left: 550px;
+}
+
+
+.görsel {
+  position: absolute;
+  background-color: #ffffff;
+  height: 980px;
+  width: 700px;
+  top: 140px;
+  opacity: 1;
+  margin-left: 325px;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+
+
+
+.pagination {
+  display: inline-block;
+  position: relative;
+  left: 500px;
+  top: 960px;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+
+.arama {
+  position: absolute;
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 4px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+  top: 80px;
+  margin-left: 930px;
+}
+.aramatxt {
+  position: absolute;
+  background-color: white; /* Green */
+  border: none;
+  color: black;
+  padding: 4px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+  top: 80px;
+  margin-left: 690px;
+}
+.yazı2 {
+  position: absolute;
+    top: 1000px;
+    margin-left: 350px;
+}
+.yazı3 {
+
+  position: absolute;
+    top: 1000px;
+    margin-left: 530px;
+}
+.yazı4 {
+  position: absolute;
+    top: 1000px;
+    margin-left: 680px;
+}
